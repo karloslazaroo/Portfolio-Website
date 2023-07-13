@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    gap: 250px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: -5px;
+}
+
+.menu {
+   margin-left: 250px;
+}

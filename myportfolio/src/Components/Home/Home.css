@@ -1,0 +1,44 @@
+.home {
+   padding: 50px;
+   display: block;
+}
+
+
+.title h1 {
+    font-size: 123px;
+    font-weight: 700;
+    letter-spacing: -4px;
+    line-height: 110.7px;
+    margin-top: 200;
+    margin: 0;
+    width: 100%
+}
+
+.title h2{
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1.3px;
+    line-height: 47px;
+    width: 800px;
+
+}
+
+.work {
+    margin-top: 450px;
+}
+.work_item {
+    margin-top: 120px;
+    
+    width: 100%;
+  
+   
+}
+
+.work_item img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+
+
+}
