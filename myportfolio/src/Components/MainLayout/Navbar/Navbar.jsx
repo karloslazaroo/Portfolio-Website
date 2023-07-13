@@ -4,7 +4,7 @@ import './Navbar.css'
 function Navbar() {
   return (
     <div className='navbar'>
-        <a>KAL</a>
+        <a>KL®</a>
         <a>Need a hand? Hit me up</a>
         <div className='menu'>
         
