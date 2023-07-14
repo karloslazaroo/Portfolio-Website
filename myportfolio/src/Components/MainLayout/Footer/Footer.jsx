@@ -1,7 +1,16 @@
 import React from "react";
 import "./Footer.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowUp} from '@fortawesome/free-solid-svg-icons'
 
 function Footer() {
+
+  function topFunction() {
+
+    window.scrollTo({top: 0, behavior: 'smooth'});
+    
+    }
+
   return (
     <div className="footer">
       <div className="footer_title">
@@ -12,20 +21,20 @@ function Footer() {
       <div className="footer_items">
       <div className="socials">
         <div className="socials_item">
-          <a>Linked In</a>
+          <a href="https://www.linkedin.com/in/karloslazaroo/">Linked In</a>
         </div>
         <div  className="socials_item">
-          <a>Instagram</a>
+          <a href="https://instagram.com/karloslazaroo">Instagram</a>
         </div>
         <div  className="socials_item">
           <a>Portfolio</a>
         </div>
       </div>
-      <div className="top">
-        <a>Back to Top</a>
+      <div className="socials_item">
+        <a onClick={topFunction}>Back to Top  </a><FontAwesomeIcon icon={faArrowUp} />
       </div>
       <div className="socials_item">
-      <p>Copyright©KarlosLazaro</p>
+      <a>Copyright©KarlosLazaro</a>
       </div>
       </div>
     </div>

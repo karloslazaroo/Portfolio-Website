@@ -3,6 +3,8 @@ import "./Home.css";
 import work1 from "../../assets/askust.jpg";
 import work2 from "../../assets/nutrilife.jpg";
 import { Fade } from "react-awesome-reveal";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowDown} from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
   return (
@@ -10,7 +12,7 @@ function Home() {
       <div className="title">
         <Fade direction="up" duration={1000}>
           <h1>
-            KARLOS LAZARO <br /> SOFTWARE ENGINEER
+            KARLOS LAZARO <br /> SOFTWARE ENGINEER 
           </h1>
         </Fade>
 
@@ -29,7 +31,7 @@ function Home() {
       <div className="work">
       <div className="work_title">
         <h3>(Selected work)</h3>
-        <h3> Discover </h3>
+        <h3> Discover <FontAwesomeIcon icon={faArrowDown} /></h3>
       </div>
         <div className="work_item">
           <img src={work1}></img>
