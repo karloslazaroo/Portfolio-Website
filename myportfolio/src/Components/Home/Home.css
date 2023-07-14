@@ -1,47 +1,103 @@
 .home {
-    margin-top: 50px;
-    margin: 50px;
-   display: block;
+  margin-top: 50px;
+  margin: 50px;
+  display: block;
 }
-
 
 .title h1 {
-    font-size: 123px;
-    font-weight: 700;
-    letter-spacing: -4px;
-    line-height: 110.7px;
-    margin-top: 200;
-    margin: 0;
-    width: 90%
+  font-size: 123px;
+  font-weight: 700;
+  letter-spacing: -4px;
+  line-height: 110.7px;
+  margin-top: 200;
+  margin: 0;
+  width: 90%;
 }
 
-.title h2{
-    margin-top: 50px;
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: -1.3px;
-    line-height: 47px;
-    width: 800px;
-
+.title h2 {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -1.3px;
+  line-height: 47px;
+  width: 800px;
 }
 
 .work {
-    margin-top: 450px;
-   
-  
+  margin-top: 150px;
+}
+
+.work_title {
+  display: flex;
+  justify-content: space-between;
 }
 .work_item {
-    margin-top: 120px;
-    
-    width: 100%;
-  
-   
+  margin-top: 25px;
+  width: 100%;
 }
 
 .work_item img {
-    display: block;
-    width: 100%;
-    border-radius: 20px;
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  height: 1200px;
+}
 
-
+.btn {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  border-width: 1px;
+  overflow: hidden;
+  border-radius: 30px;
+  background-color: #f5f5f5;
+  color: #000000;
+  cursor: pointer;
+  border-color: #000000;
+}
+.btn::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "karloplazaro@yahoo.com";
+  transition: all 0.3s;
+}
+.btn::after {
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "Let's Connect!";
+  transition: all 0.3s;
+  background-color: black;
+  color: #ffffff;
+}
+.btn:hover::before {
+  top: -60px;
+}
+.btn:hover::after {
+  top: 0;
+}
+.btn h1 {
+  margin: 20px 0 0;
+  color: #202b33;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
