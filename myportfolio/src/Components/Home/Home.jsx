@@ -5,9 +5,11 @@ import work2 from "../../assets/nutrilife.jpg";
 import { Fade } from "react-awesome-reveal";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown} from '@fortawesome/free-solid-svg-icons'
+import MainLayout from "../MainLayout/MainLayout";
 
 function Home() {
   return (
+    <MainLayout>
     <div className="home">
       <div className="title">
         <Fade direction="up" duration={1000}>
@@ -23,7 +25,9 @@ function Home() {
       </div>
 
       <div>
-        <button className="btn"></button>
+        <form action="mailto:karloplazaro@yahoo.com">
+        <button className="btn" ></button>
+        </form>
       </div>
 
      
@@ -42,6 +46,7 @@ function Home() {
         </div>
       </div>
     </div>
+    </MainLayout>
   );
 }
 
