@@ -11,21 +11,21 @@ function Footer() {
       </div>
       <div className="footer_items">
       <div className="socials">
-        <div>
+        <div className="socials_item">
           <a>Linked In</a>
         </div>
-        <div>
+        <div  className="socials_item">
           <a>Instagram</a>
         </div>
-        <div>
+        <div  className="socials_item">
           <a>Portfolio</a>
         </div>
       </div>
       <div className="top">
         <a>Back to Top</a>
       </div>
-      <div>
-      <p>Copyright©GilHuybrecht</p>
+      <div className="socials_item">
+      <p>Copyright©KarlosLazaro</p>
       </div>
       </div>
     </div>

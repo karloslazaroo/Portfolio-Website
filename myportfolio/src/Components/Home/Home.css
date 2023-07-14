@@ -1,5 +1,6 @@
 .home {
-   padding: 50px;
+    margin-top: 50px;
+    margin: 50px;
    display: block;
 }
 
@@ -11,7 +12,7 @@
     line-height: 110.7px;
     margin-top: 200;
     margin: 0;
-    width: 100%
+    width: 90%
 }
 
 .title h2{
@@ -26,6 +27,8 @@
 
 .work {
     margin-top: 450px;
+   
+  
 }
 .work_item {
     margin-top: 120px;

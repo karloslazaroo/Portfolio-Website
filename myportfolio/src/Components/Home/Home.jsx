@@ -2,13 +2,16 @@ import React from 'react'
 import './Home.css'
 import work1 from '../../assets/askust.jpg'
 import work2 from '../../assets/nutrilife.jpg'
+import { Fade } from "react-awesome-reveal";
 
 function Home() {
   return (
+    
    <div className='home'>
     <div className='title'>
-   
-   <h1>KARLOS LAZARO <br/> WEBSITE DEVELOPER</h1>
+   <Fade bottom>
+   <h1>KARLOS LAZARO <br/> SOFTWARE ENGINEER</h1>
+   </Fade>
 
 
     <h2>Committed to continuous learning, professional growth, 
