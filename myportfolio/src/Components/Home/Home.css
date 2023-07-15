@@ -38,14 +38,10 @@
 .work_item {
   margin-top: 25px;
   width: 100%;
+  margin-bottom: 250px;
 }
 
-.work_item img {
-  display: block;
-  width: 100%;
-  border-radius: 20px;
-  height: 1200px;
-}
+
 
 .btn {
   position: relative;
@@ -100,6 +96,65 @@
   letter-spacing: 1px;
   text-align: center;
 }
+
+.details {
+  display: flex;
+  margin-top: 10px;
+  gap: 10%;
+  padding: 0 0 0 30px;
+}
+
+.details h3 {
+  font-weight: 500;
+}
+
+.description {
+  display: flex;
+  gap: 30%;
+  margin-top: 250px;
+}
+
+.description h2 {
+  width: 900px;
+  font-size: 40px;
+  font-weight: 500;
+
+}
+
+.img_div {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 900px;
+  
+}
+.img_div img {
+  display: block;
+  width: 100%;
+  object-fit: fill;
+  height: 1200px;
+  transition: 0.5s all ease-in-out;
+}
+
+.img_div img:hover {
+  transform: scale(1.05);
+}
+.middle {
+  background-color: antiquewhite;
+  width: 150px;
+  
+  height: 150px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+
+.img_div:hover .middle{
+  opacity: 1;
+}
+
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 2rem;

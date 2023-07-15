@@ -27,7 +27,7 @@ function Footer() {
           <a href="https://instagram.com/karloslazaroo">Instagram</a>
         </div>
         <div  className="socials_item">
-          <a>Portfolio</a>
+          <a href='https://github.com/karloslazaroo?tab=repositories'>Github</a>
         </div>
       </div>
       <div className="socials_item">
