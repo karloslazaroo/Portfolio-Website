@@ -4,7 +4,7 @@ import './index.css';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects'
 import About from './Components/About/About'
-import {createBrowserRouter,RouterProvider,} from "react-router-dom";
+import {createBrowserRouter,RouterProvider} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
