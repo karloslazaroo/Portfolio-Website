@@ -59,10 +59,10 @@ function Home() {
 
           <div className="work_item">
           <div className="img_div">
-            {/* <img src={work2}></img> */}
-            <div className="middle">
+            <img src={work2}></img>
+            {/* <div className="middle">
               <h2>View Case</h2>
-            </div>
+            </div> */}
             </div>
             <div className="details">
               <h3>NutriLife Fruits and Vegetables Wholesaling Website</h3>
