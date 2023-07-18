@@ -20,7 +20,8 @@ function Work() {
         <div className="work_item">
        
           <div className="img_div">
-            <Link to="askust"><img src={work1} ></img></Link>
+            <img src={work1} ></img>
+            <Link to="askust"></Link>
            
           </div>
           <div className="details">
