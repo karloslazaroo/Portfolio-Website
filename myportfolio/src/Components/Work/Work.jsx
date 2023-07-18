@@ -18,9 +18,9 @@ function Work() {
           </h3>
         </div>
         <div className="work_item">
-       
+        <Link to="/askust">LINKKKK</Link>
           <div className="img_div">
-            <Link to='askust' href='/askust'><img src={work1} ></img></Link>
+            <img src={work1} ></img>
             <Link to="/askust"></Link>
            
           </div>
