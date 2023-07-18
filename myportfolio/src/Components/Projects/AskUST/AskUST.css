@@ -56,8 +56,7 @@
 
   }
 
-  .askust__worktitle h3 {
-  }
+
 
   .askust_desc {
     display: flex;
@@ -71,6 +70,11 @@
     width: 900px;
   }
 
+  .askust_summary p{
+    height: 24px;
+    border-bottom: solid 1px;
+    width: 218px;
+  }
   .askust_desc h3 {
   
 
