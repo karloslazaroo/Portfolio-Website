@@ -16,15 +16,17 @@ const router = createBrowserRouter([
     path: "projects",
     element: <Projects/>,
   
+  
   },
   {
     path: "about",
     element: <About/>,
   },
   {
-    path: 'askust',
+    path: "askust",
     element: <AskUST/>
-  },
+  }
+  
   
 
  
