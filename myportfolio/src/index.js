@@ -24,8 +24,7 @@ const router = createBrowserRouter([
   {
     path: 'askust',
     element: <AskUST/>
-
-  }
+  },
   
 
  
