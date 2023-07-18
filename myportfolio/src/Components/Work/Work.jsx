@@ -18,10 +18,10 @@ function Work() {
           </h3>
         </div>
         <div className="work_item">
-        <Link to="/askust">LINK</Link>
+       
           <div className="img_div">
-            <img src={work1} ></img>
-            
+            <Link to='askust'><img src={work1} ></img></Link>
+            <Link to="/askust"></Link>
            
           </div>
           <div className="details">

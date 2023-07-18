@@ -5,10 +5,12 @@
     font-weight: 500;
     font-size: 18px;
     line-height: -5px;
-    
-   
-   
-   
+
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
 }
 
 .menu {

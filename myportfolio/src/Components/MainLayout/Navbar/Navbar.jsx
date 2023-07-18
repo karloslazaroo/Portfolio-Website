@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="navbar">
-      <Link to='/'>KL®</Link>
+      <Link to='/'><h1>KL®</h1></Link>
       <a>Need a website? hit me up.</a>
       <div className="menu">
         <Link to='/projects'class="hover">Projects,</Link>
