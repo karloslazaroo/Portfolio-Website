@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-
 function Work() {
   return (
     <div>
@@ -18,11 +17,11 @@ function Work() {
           </h3>
         </div>
         <div className="work_item">
-       
           <div className="img_div">
-            <Link to='askust'><img src={work1} ></img></Link>
+            <Link to="askust">
+              <img src={work1}></img>
+            </Link>
             <Link to="/askust"></Link>
-           
           </div>
           <div className="details">
             <h3>AUST: Ask - UST Chatbot for UST - ICT</h3>

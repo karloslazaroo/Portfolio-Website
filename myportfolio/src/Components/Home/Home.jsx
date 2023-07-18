@@ -24,13 +24,12 @@ function Home() {
         </div>
 
         <div>
-   
-           <a href="mailto:karloplazaro@yahoo.com"><button className="btn"></button></a>
-    
+          <a href="mailto:karloplazaro@yahoo.com">
+            <button className="btn"></button>
+          </a>
         </div>
 
         <Work />
-      
       </div>
     </MainLayout>
   );

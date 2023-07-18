@@ -3,7 +3,19 @@ import "./AskUST.css";
 import MainLayout from "../../MainLayout/MainLayout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
-import { askust1, askust2, askust3, askust4, askust5, askust6, askust7, askust8, askust9, askust10, askust11 } from "../../../assets";
+import {
+  askust1,
+  askust2,
+  askust3,
+  askust4,
+  askust5,
+  askust6,
+  askust7,
+  askust8,
+  askust9,
+  askust10,
+  askust11,
+} from "../../../assets";
 import AskUSTimg from "../../../assets/askust.jpg";
 import { Fade } from "react-awesome-reveal";
 
@@ -11,19 +23,18 @@ function AskUST() {
   return (
     <MainLayout>
       <div className="askust">
-        
         <div className="askust_title">
-        <Fade direction="up" duration={1000}>
-          <h1>ASK - UST®</h1>
+          <Fade direction="up" duration={1000}>
+            <h1>ASK - UST®</h1>
 
-          <h1>(2023)</h1>
+            <h1>(2023)</h1>
           </Fade>
         </div>
         <div className="askust__worktitle">
           <div>
             <h2>A UST Chatbot managing website for concerns and questions.</h2>
           </div>
-         
+
           <div className="discover">
             <span>
               {" "}
@@ -50,7 +61,9 @@ function AskUST() {
               knowledge that will enable them to address their issues.
             </h3>
 
-            <a href="https://askust.online/"><p>Visit the website's live version</p></a> 
+            <a href="https://askust.online/">
+              <p>Visit the website's live version</p>
+            </a>
 
             <div className="info">
               <div className="info_item">
