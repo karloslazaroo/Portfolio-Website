@@ -25,7 +25,12 @@ const router = createBrowserRouter([
   {
     path: "askust",
     element: <AskUST/>
+  },
+  {
+    path: "projects/askust",
+    element: <AskUST/>
   }
+
   
   
 
