@@ -24,9 +24,9 @@ function Home() {
         </div>
 
         <div>
-          <form action="mailto:karloplazaro@yahoo.com">
-            <button className="btn"></button>
-          </form>
+          {/* <form action="mailto:karloplazaro@yahoo.com"> */}
+           <a href="mailto:karloplazaro@yahoo.com"><button className="btn"></button></a>
+          {/* </form> */}
         </div>
 
         <Work />
