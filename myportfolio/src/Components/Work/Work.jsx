@@ -21,6 +21,7 @@ function Work() {
        
           <div className="img_div">
             <Link to="askust"><img src={work1} ></img></Link>
+            <Link to='askust'>LINK</Link>
           </div>
           <div className="details">
             <h3>AUST: Ask - UST Chatbot for UST - ICT</h3>
