@@ -4,6 +4,7 @@ import './index.css';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects'
 import About from './Components/About/About'
+import AskUST from './Components/Projects/AskUST/AskUST';
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -14,11 +15,19 @@ const router = createBrowserRouter([
   {
     path: "projects",
     element: <Projects/>,
+  
   },
   {
     path: "about",
     element: <About/>,
   },
+  {
+    path: 'askust',
+    element: <AskUST/>
+
+  }
+  
+
  
 
 ]);

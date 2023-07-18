@@ -1,0 +1,58 @@
+.work {
+    margin-top: 150px;
+  }
+  
+  .work_title {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .work_title h3{
+      font-weight: 500;
+  }
+  .work_item {
+    margin-top: 25px;
+    width: 100%;
+    margin-bottom: 250px;
+  }
+  .details {
+    display: flex;
+    margin-top: 10px;
+    gap: 10%;
+    padding: 0 0 0 30px;
+  }
+  
+  .details h3 {
+    font-weight: 500;
+  }
+  
+  .description {
+    display: flex;
+    gap: 30%;
+    margin-top: 250px;
+  }
+  
+  .description h2 {
+    width: 900px;
+    font-size: 40px;
+    font-weight: 500;
+  
+  }
+  
+  .img_div {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 800px;
+    
+  }
+  .img_div img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    transition: 0.5s all ease-in-out;
+  }
+  
+  .img_div img:hover {
+    transform: scale(1.05);
+  }  

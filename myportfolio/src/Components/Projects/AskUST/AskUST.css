@@ -1,0 +1,36 @@
+.askust {
+    margin: 50px;
+}
+
+.askust_title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 250px;
+    
+}
+
+.askust_title h1 {
+    font-size: 123px;
+    font-weight: 700;
+    letter-spacing: -4px;
+    line-height: 110.7px;
+    margin-top: 200;
+    margin: 0;
+    
+  }
+
+  .askust__worktitle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .askust__worktitle h2{
+     font-size: 40px;
+     font-weight: 600;
+     width: 800px;
+  }
+
+  .askust__worktitle h3 {
+    font-weight: 500;
+  }
