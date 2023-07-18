@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <Link to='/'><h1>KL®</h1></Link>
-      <a>Need a website? hit me up.</a>
+      <a href="mailto:karloplazaro@yahoo.com">Need a website? hit me up.</a>
       <div className="menu">
         <Link to='/projects'class="hover">Projects,</Link>
         <Link to='/about'class="hover">About</Link>
