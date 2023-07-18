@@ -4,6 +4,8 @@ import work1 from "../../assets/askust.jpg";
 import work2 from "../../assets/nutrilife.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+
 
 function Work() {
   return (
@@ -12,14 +14,13 @@ function Work() {
         <div className="work_title">
           <h3>(Selected work)</h3>
           <h3>
-            {" "}
-            Discoverr <FontAwesomeIcon icon={faArrowDown} />
+            Discover <FontAwesomeIcon icon={faArrowDown} />
           </h3>
         </div>
         <div className="work_item">
        
           <div className="img_div">
-            <a href="/askust"><img src={work1} ></img></a>
+            <Link to="askust"><img src={work1} ></img></Link>
           </div>
           <div className="details">
             <h3>AUST: Ask - UST Chatbot for UST - ICT</h3>
