@@ -13,7 +13,7 @@ function Work() {
           <h3>(Selected work)</h3>
           <h3>
             {" "}
-            Discover <FontAwesomeIcon icon={faArrowDown} />
+            Discoverr <FontAwesomeIcon icon={faArrowDown} />
           </h3>
         </div>
         <div className="work_item">
