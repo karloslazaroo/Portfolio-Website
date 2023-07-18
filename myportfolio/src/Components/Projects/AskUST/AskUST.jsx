@@ -11,7 +11,7 @@ function AskUST() {
     <MainLayout>
       <div className="askust">
         <div className="askust_title">
-          <h1>ASK - UST</h1>
+          <h1>ASK - UST®</h1>
 
           <h1>(2023)</h1>
         </div>
