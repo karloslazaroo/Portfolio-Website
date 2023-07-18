@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     element: <About/>,
   },
   {
-    path: 'askust',
+    path: '/askust',
     element: <AskUST/>
   },
   
