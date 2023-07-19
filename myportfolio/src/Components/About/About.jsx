@@ -37,16 +37,26 @@ function About() {
             <h3>(001)</h3>
             <h2>
              Hello, my name is Karlos Andrew P. Lazaro and I'm currently a fresh graduate from the University of Santo Tomas with 
-             Bachelor of Science in Information Technology Specializing in Web and Mobile Development
+             Bachelor of Science in Information Technology Specializing in Web and Mobile Development.
             </h2>
           </div>
           <div className="about_description">
             <h3>(002)</h3>
             <h2>
+            ReactJS is my most comfortable coding language, as the 
+            majority of my projects have been built using this framework. I feel confident and at ease when working with ReactJS, leveraging its powerful features and extensive ecosystem to 
+            create robust and innovative applications.
+            </h2>
+          </div>
+          <div className="about_description">
+            <h3>(003)</h3>
+            <h2>
             When I'm not immersed in coding or studying other languages, my greatest pleasure lies in selling and collecting sneakers. This passion brings me immense joy and excitement, 
             making it an essential part of my life.
             </h2>
           </div>
+
+          
 
           <div className="education_title">
             <h1>Education</h1>
