@@ -3,6 +3,10 @@ import MainLayout from '../MainLayout/MainLayout'
 import './About.css'
 
 import work1 from "../../assets/askust.jpg";
+import about1 from '../../assets/about1.jpg'
+import  about2 from '../../assets/about2.jpg'
+import about3 from '../../assets/about3.jpg'
+import about4 from '../../assets/about4.jpg'
 
 function About() {
   return (
@@ -14,9 +18,19 @@ function About() {
       <h2>Take the time to learn more about me, 
         my personality, what I value, my experiences, and the things I enjoy. </h2>
       </div>
-
-      <div className="img_div">
-              <img src={work1}></img>
+    <div className='about_imgdiv'>
+      <div className="about_img">
+              <img src={about1}></img>
+          </div>
+          <div className="about_img">
+              <img src={about2}></img>
+          </div>
+          <div className="about_img">
+              <img src={about3}></img>
+          </div>
+          <div className="about_img">
+              <img src={about4}></img>
+          </div>
           </div>
 
           <div className="about_description">
