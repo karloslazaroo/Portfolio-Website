@@ -1,0 +1,75 @@
+.about {
+    margin: 50px;
+}
+
+.about_title {
+    margin-top: 250px;
+}
+
+.about_title h1 {
+    font-size: 123px;
+    font-weight: 700;
+    letter-spacing: -4px;
+    line-height: 110.7px;
+    
+    margin: 0;
+    width: 70%;
+  }
+
+  .about_title h2 {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1.3px;
+    line-height: 47px;
+    width: 800px;
+  }
+
+.education_title h1 {
+    font-size: 123px;
+    font-weight: 700;
+    letter-spacing: -4px;
+    line-height: 110.7px;
+    
+    margin-top: 250px;
+    width: 70%;
+}
+
+  .education {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+  
+  }
+  
+
+  .education_item {
+    display: flex;
+    gap: 0%;
+    width: 100%;
+    border-top: 1px solid;
+    padding: 35px 0px;
+    text-align: left;
+    height: 200px;
+
+  }
+
+  .education_item h3 {
+    font-weight: 500;
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .about_description {
+    display: flex;
+    gap: 30%;
+    margin-top: 50px;
+  }
+  
+  .about_description h2 {
+    width: 900px;
+    font-size: 40px;
+    font-weight: 500;
+  
+  }
