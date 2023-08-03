@@ -31,8 +31,8 @@ function AskUST() {
           </Fade>
         </div>
         <div className="askust__worktitle">
-          <div>
-            <h2>A UST Chatbot managing website for concerns and questions.</h2>
+          <div >
+            <h2 id="askust_desc">A UST Chatbot managing website for concerns and questions.</h2>
           </div>
 
           <div className="discover">
