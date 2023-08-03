@@ -1,7 +1,7 @@
 import React from 'react'
 import MainLayout from '../MainLayout/MainLayout'
 import './About.css'
-
+import { Fade } from "react-awesome-reveal";
 import work1 from "../../assets/askust.jpg";
 import about1 from '../../assets/about1.jpg'
 import  about2 from '../../assets/about2.jpg'
@@ -14,9 +14,11 @@ function About() {
     <MainLayout>
       <div className='about'>
       <div className='title'>
+      <Fade direction="up" duration={1000}>
       <h1>FRONTEND AND BACKEND DEVELOPMENT</h1>
       <h2>Take the time to learn more about me, 
         my personality, what I value, my experiences, and the things I enjoy. </h2>
+        </Fade>
       </div>
     <div className='about_imgdiv'>
       <div className="about_img">
