@@ -8,7 +8,7 @@ function Navbar() {
       <Link to="/">
         <h1>KL®</h1>
       </Link>
-      <a href="mailto:karloplazaro@yahoo.com">Need a website? hit me up.</a>
+      <a id='need'href="mailto:karloplazaro@yahoo.com">Need a website? hit me up.</a>
       <div className="menu">
         <Link to="/projects" class="hover">
           Projects,
@@ -17,7 +17,7 @@ function Navbar() {
           About
         </Link>
       </div>
-      <a class="email" href="mailto:karloplazaro@yahoo.com">
+      <a id='email'class="email" href="mailto:karloplazaro@yahoo.com">
         karloplazaro@yahoo.com
       </a>
     </div>

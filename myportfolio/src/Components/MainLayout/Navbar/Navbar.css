@@ -5,6 +5,7 @@
     font-size: 18px;
     line-height: -5px;
     justify-content: space-between;
+    
 
 }
 
@@ -70,4 +71,15 @@
   .email:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+  @media only screen and (max-width: 600px) {
+  
+    #need {
+      display: none;
+    }
+   #email {
+    display: none;
+   }
+
   }
