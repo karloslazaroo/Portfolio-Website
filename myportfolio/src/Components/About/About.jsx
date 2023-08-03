@@ -53,7 +53,7 @@ function About() {
           <div className="about_description">
             <h3>(003)</h3>
             <h2>
-            When I'm not immersed in coding or studying other languages, my greatest pleasure lies in selling and collecting sneakers. This passion brings me immense joy and excitement, 
+            When I'm not immersed in coding or studying other programming languages, my greatest pleasure lies in playing online games with my friends. This passion brings me immense joy and excitement, 
             making it an essential part of my life.
             </h2>
           </div>
