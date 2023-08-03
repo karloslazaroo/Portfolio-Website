@@ -3,6 +3,7 @@
   margin: 50px;
   display: block;
  
+ 
 }
 
 .title h1 {
@@ -155,8 +156,31 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 2rem;
+@media screen and (max-width: 600px) {
+  .title h1 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 35.1px;
+    margin-top: 200;
+    margin: 0;
+    width: auto;
+    
+  }
+
+  .title h2 {
+    margin-top: 25px;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -1.3px;
+  line-height: 25px;
+  width: auto;
+  margin-bottom: 50PX;
+  }
+
+  .home {
+  margin-top: 50px;
+  margin: 15px;
+  display: block;
   }
 }

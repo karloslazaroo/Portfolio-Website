@@ -25,7 +25,7 @@ function Work() {
           </div>
           <div className="details">
             <h3>AUST: Ask - UST Chatbot for UST - ICT</h3>
-            <h3>
+            <h3 id="details">
               This project aims to make each office as convenient
               <br></br>and reachable as possible whenever they have questions or
               concerns.
@@ -46,7 +46,7 @@ function Work() {
           </div>
           <div className="details">
             <h3>NutriLife Fruits and Vegetables Wholesaling Website</h3>
-            <h3>
+            <h3 id="details"> 
               This project was made to broaden the business reach of the
               <br></br>NutriLife Fruits and Vegetables Wholesaling aside from
               <br></br>having their social media pages.

@@ -5,7 +5,7 @@
     font-size: 18px;
     line-height: -5px;
     justify-content: space-between;
-    
+   
 
 }
 
@@ -80,6 +80,15 @@
     }
    #email {
     display: none;
+   }
+
+   .navbar {
+    justify-content: space-between;
+    padding: 20px;
+   }
+
+   .menu {
+    margin-left: 0px;
    }
 
   }

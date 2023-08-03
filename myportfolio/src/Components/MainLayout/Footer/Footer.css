@@ -50,3 +50,43 @@ a {
     padding: 25px;
 
 }
+
+@media only screen and (max-width: 600px)  {
+    .footer_title h1 {
+        display: block;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: -1.8px;
+        line-height: 35.1px;
+        margin-top: 200;
+        margin: 0;
+        text-align: center;
+        margin: 20px 0 0 20px;
+       
+        
+    }
+
+    .footer_items {
+        align-content: center;
+        align-items: center;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+
+    .socials_item {
+        font-size: 18px;
+    }
+
+    .socials {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        width: 280px;
+        gap: 8%;
+        width: auto;
+       
+    }
+}
