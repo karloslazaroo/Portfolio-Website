@@ -13,8 +13,8 @@ function Projects() {
             <h1>SELECTED WORK</h1>
             <h1>(2019 - 2023)</h1>
             <h2>
-              Have a look at some of the projects I’ve worked on. Clients vary
-              from lifestyle to tech and design companies.
+            Take a moment to explore a few of the projects 
+            I've had the opportunity to be a part of.
             </h2>
           </Fade>
         </div>
