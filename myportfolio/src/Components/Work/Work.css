@@ -40,14 +40,17 @@
   }
   
   .img_div {
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     border-radius: 20px;
-    height: auto;
+    
+    
+
   }
   .img_div img {
-    display: block;
-    height: 800px;
     object-fit: cover;
+    height: 800px;
     transition: 0.5s all ease-in-out;
   }
   
